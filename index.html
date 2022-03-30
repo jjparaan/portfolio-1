@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css">
+    <!-- Style Switcher CSS link -->
+    <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" disabled/>
+    <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled/>
+    <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled/>
+    <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled/>
+    <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled/>
+    <link rel="stylesheet" href="style-switcher.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Scroll Effects -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body onload="slider()">
+    <!-- Loading Screen Start -->
+    <div id="preloader">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K4DyBUG242c" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K4DyBUG242c" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/K4DyBUG242c" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+    </div>
+    <!-- Loading Screen End -->
+
+    <!-- Main Content Start -->
+    <div class="main-content">
+        <!-- Home Center Start -->
+        <section class="home" id="home">
+            <div class="container home-container">
+                <!-- Nav Center Start -->
+                <nav class="box-shadow">
+                    <div class="nav-toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="links" data-aos="fade-down" data-aos-delay="200" data-aos-duration="800">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <!-- Nav Center End -->
+    
+                <!-- Logo Center Start -->
+                <section class="logo">
+                    <div class="static-txt">
+                        <h2 data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">Jhuan Julio</h2>
+                    </div>
+                    <ul class="dynamic-txt">
+                        <li><span>web developer</span></li>
+                    </ul>
+                    <div class="hero">
+                        <img src="./img/hero2.jpg" alt="hero">
+                    </div>
+                </section>
+                <!-- Logo Center End -->
+            </div>
+        </section>
+        <!-- Home Center End -->
+    
+        <!-- About Center Start-->
+        <section class="about" id="about">
+            <div class="container about-container">
+                <!-- <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800">
+                    <div class="section-title icon padding">
+                        <i class="fa fa-user box-shadow"></i>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <div class="about-content padding">
+                        <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800">
+                            <div class="about-text padding">
+                                <h3><span>Jhuan Julio Hermosa Paraan</span></h3>
+                                <p>
+                                    Aspiring web developer with extensive experience of over 4 years. My experience
+                                    now
+                                    is
+                                    in frontend development. My goal is to have the opportunity to work for an organization
+                                    that
+                                    offers me the opportunity to improve my skills or learn new things. Ideally, the
+                                    experiences
+                                    I want to gain tell me about my affinity with this work culture.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800"  >
+                            <div class="personal-info padding">
+                                <div class="row">
+                                    <div class="info-item padding">
+                                        <p>Birthday: <span>August 26, 2000</span></p>
+                                    </div>
+                                    <div class="info-item padding">
+                                        <p>Age: <span>21</span></p>
+                                    </div>
+                                    <div class="info-item padding">
+                                        <p>Degree: <span>Bachelor of Science in Information Technology</span></p>
+                                    </div>
+                                    <div class="info-item padding">
+                                        <p>Email: <span>jhuanjulioparaan@gmail.com</span></p>
+                                    </div>
+                                    <div class="info-item padding">
+                                        <p>Phone: <span>+63 915-280-7851</span></p>
+                                    </div>
+                                    <div class="info-item padding">
+                                        <p>Location: <span>Makati City</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800">
+                            <div class="education padding">
+                                <h3 class="title"><i class="fa fa-book"></i> Educational background</h3>
+                                <div class="row">
+                                    <div class="timeline-area padding">
+                                        <div class="timeline-item">
+                                            <h2>Philippine Women's University</h2>
+                                            <h3>Bachelor of Science in Information Technology</h3>
+                                            <h4><i class="fa fa-calendar"></i>2018 - Present</h4>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <h2>Adamson University</h2>
+                                            <h3>Science, Technology, Engineering and Mathematics</h3>
+                                            <h4><i class="fa fa-calendar"></i>2017 - 2018</h4>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <h2>AMA University</h2>
+                                            <h3>Science, Technology, Engineering and Mathematics</h3>
+                                            <h4><i class="fa fa-calendar"></i>2016 - 2017</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience padding">
+                                <h3 class="title"><i class="fa fa-folder"></i> Certifications and Organizations</h3>
+                                <div class="row">
+                                    <div class="timeline-area padding">
+                                        <div class="timeline-item">
+                                            <h2>Introduction to Amazon Web Services</h2>
+                                            <h3>TREND Micro</h3>
+                                            <h4><i class="fa fa-calendar"></i>December 09, 2021</h4>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <h2>IT Society Student Council</h2>
+                                            <h3>Member</h3>
+                                            <h4><i class="fa fa-calendar"></i>2020 - 2021</h4>
+                                        </div>
+                                        <div class="timeline-item">
+                                            <h2>PWU Men's Basketball Team</h2>
+                                            <h3>Member</h3>
+                                            <h4><i class="fa fa-calendar"></i>2018 - Present</h4>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Center End-->
+    
+        <!-- Services Center Start -->
+        <section class="services" id="services">
+            <div class="container services-container">
+                <!-- <div class="row" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="800">
+                    <div class="section-title icon padding">
+                        <i class="fa-solid fa-laptop box-shadow"></i>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <div class="skills padding">
+                        <div class="row">
+                            <div class="skill-item padding" data-aos="zoom-in-right" data-aos-duration="800">
+                                <div class="skill-item-inner">
+                                    <div class="item-img">
+                                        <img src="./img/rwd.jpeg" class="box-shadow" id="slideImg" alt="design">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-info box-shadow" data-aos="zoom-in-up" data-aos-duration="1600">
+                                <button id="modal-btn"><img src="./img/hero2.jpg" alt="img"></button>
+                                <h3>Profile</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- modal section start -->
+        <div class="modal-container" id="modal_container">
+            <div class="modal box-shadow">
+                <h3 class="padding">Experience</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-thumbtack"></i>
+                        <p>Resourceful and has a solid tuning in and relational abilities</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-thumbtack"></i>
+                        <p>
+                            Cooperative person with positive experience working with others in a synergistic
+                            climate to accomplish objectives
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-thumbtack"></i>
+                        <p>
+                            Flexible and hardworking team player focused on boosting efficiency and performance
+                            with conscientious and detail-oriented approaches
+                        </p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-thumbtack"></i>
+                        <p>
+                            Proficient with a clear understanding of various fields: HTLM, CSS, Javascript,
+                            PHP, React, Microsoft Office
+                        </p>
+                    </li>
+                </ul>
+                <button id="modal-ext"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+        </div>
+        <!-- modal section end -->
+        <!-- Services Center End -->
+
+        <!-- Projects Center Start -->
+        <section class="projects" id="projects">
+            <div class="container projects-container">
+                <div class="row">
+                    <div class="section-title icon padding" data-aos="zoom-in-up" data-aos-duration="800">
+                        <h3>My Projects</h3>
+                    </div>
+                </div>
+                <div class="row" id="items">
+                    <!-- Projects item start -->
+                    <div class="projects-item padding" data-aos="zoom-in-up" data-aos-duration="800">
+                        <div class="projects-item-inner web1 box-shadow">
+                            <div class="projects-img">
+                                <a href="https://studio-l.netlify.app/" target="_blank"><img src="./img/web1.png" alt="projects"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projects item end -->
+                    <!-- Projects item start -->
+                    <div class="projects-item padding" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <div class="projects-item-inner web2 box-shadow">
+                            <div class="projects-img">
+                                <a href="https://p-tracking.netlify.app/" target="_blank"><img src="./img/web2.png" alt="projects"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projects item end -->
+                    <!-- Projects item start -->
+                    <div class="projects-item padding" data-aos="zoom-in-up" data-aos-duration="1200">
+                        <div class="projects-item-inner web3 box-shadow">
+                            <div class="projects-img">
+                                <a href="https://color-g.netlify.app/" target="_blank"><img src="./img/web3.png" alt="projects"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projects item end -->
+                    <!-- Projects item start -->
+                    <div class="projects-item padding" data-aos="zoom-in-up" data-aos-duration="1400">
+                        <div class="projects-item-inner web4 box-shadow">
+                            <div class="projects-img">
+                                <a href="https://pwu-digital-signature.netlify.app/" target="_blank"><img src="./img/web10.png" alt="projects"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projects item end -->
+                    <!-- Projects item start -->
+                    <div class="projects-item padding" data-aos="zoom-in-up" data-aos-duration="1600">
+                        <div class="projects-item-inner web5 box-shadow">
+                            <div class="projects-img">
+                                <a href="https://p-singlecolumn.netlify.app/" target="_blank"><img src="./img/web5.png" alt="projects"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projects item end -->
+                    <!-- Projects item start -->
+                    <div class="projects-item padding" data-aos="zoom-in-up" data-aos-duration="1800">
+                        <div class="projects-item-inner web6 box-shadow">
+                            <div class="projects-img">
+                                <a href="https://sunnyside-egg.netlify.app/" target="_blank"><img src="./img/web4.png" alt="projects"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projects item end -->
+                    <!-- Projects item start -->
+                    <div class="projects-item padding" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <div class="projects-item-inner web7 box-shadow">
+                            <div class="projects-img">
+                                <a href="https://dark-fylo.netlify.app/"><img src="./img/web7.png" alt="projects"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projects item end -->
+                    <!-- Projects item start -->
+                    <div class="projects-item padding" data-aos="zoom-in-up" data-aos-duration="2200">
+                        <div class="projects-item-inner web8 box-shadow">
+                            <div class="projects-img">
+                                <a href="https://i-component.netlify.app/" target="_blank"><img src="./img/web8.png" alt="projects"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projects item end -->
+                    <!-- Projects item start -->
+                    <div class="projects-item padding" data-aos="zoom-in-up" data-aos-duration="2400">
+                        <div class="projects-item-inner web9 box-shadow">
+                            <div class="projects-img">
+                                <a href="https://jknperformance.netlify.app/" target="_blank"><img src="./img/web9.png" alt="projects"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Projects item end -->
+                </div>
+            </div>
+        </section>
+        <!-- Projects Center End -->
+
+        <!-- Contact Center Start -->
+        <section class="contact" id="contact">
+            <div class="container contact-container">
+                <div class="row">
+                    <div class="section-title icon padding" data-aos="zoom-in-up" data-aos-duration="800">
+                        <h3>How can I help you?</h3>
+                    </div>
+                    <div class="contact-text padding box-shadow" data-aos="zoom-in-up" data-aos-duration="1200">
+                        <p>
+                            Got a question? I'm here to help! You can contact me via my <span><a href="#about">email</a></span> or <span><a href="#about">number</a></span>,
+                            or just simply through these social media links below:
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="media-links padding" data-aos="zoom-in-up" data-aos-duration="1600">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com/Jhayjay26"><i class="fa-brands fa-facebook-f box-shadow"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/_jhuanjulio/"><i class="fa-brands fa-instagram box-shadow"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/JhuanJulioHP"><i class="fa-brands fa-twitter box-shadow"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Center End -->
+    </div>
+    <!-- Main Content End -->
+
+    <!-- Color Switcher Start -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas "></i>
+        </div>
+        <div class="arrow-up s-icon">
+            <a href="#"><i class="fas fa-arrow-up"></i></a>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+
+    <!-- Color Switcher End -->
+    <script src="style-switcher.js"></script>
+    <script src="script.js"></script>
+    <script src="aos-script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Animation Link -->
+        <script>    
+            AOS.init();
+        </script>
+</body>
+</html>
